@@ -21,6 +21,7 @@ span {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav > ul {
     display: flex;
@@ -41,4 +42,25 @@ nav a {
     font-weight: 700;
     background: rgb(30, 255, 0);
     padding: 15px 35px;
+}
+
+.header {
+    background-color: aquamarine;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.btn-primary2 {
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: greenyellow;
+    background: rgba(30, 255, 0, 0);
+    padding: 15px 35px;
+}
+.banner .profile-pic {
+    width: 500px;
 }
