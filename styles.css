@@ -171,3 +171,29 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #ece281;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-item {
+    width: 50%;
+
+}
+.contact  input[type="text"], .contact  input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: rgb(220, 226, 163);
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+    background: #FFF;
+}
+.contact input {
+
+}
