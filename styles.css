@@ -144,5 +144,30 @@ main {
 }
 
 .skill-dec {
+    color: rgb(44, 29, 10);
+}
+.resume-item-title {
+    color: rgb(88, 79, 47);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+.resume-item-sub {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-item-dec, .resume-item-sub {
+    color: rgb(53, 50, 45);
+}
+.resume-container hr {
+    margin: 30px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
